@@ -10,6 +10,7 @@ void setup() {
   pinMode(6, OUTPUT);
 }
 
+
 void loop() {
   for (int arg1 = 0; arg1 <=15; arg1++)
     lights(arg1);            // call assembly light display
